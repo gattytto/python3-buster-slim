@@ -20,6 +20,7 @@ RUN pip install \
                 proto-plus>=1.19.7 \
                 quart \
                 pynacl \
-                hypercorn
+                hypercorn \
+                boto3
 
 RUN pip list
