@@ -5,20 +5,20 @@ ENV CARGO_BUILD_JOBS=2
 RUN pip install --upgrade pip
 
 RUN pip install \
-                grpcio==1.64.1 \
+                grpcio==1.67.1 \
                 boto3 \
                 solana \
                 base58 \
                 kubernetes \
                 requests \
                 debugpy \
-                grpcio-reflection==1.62.2 \
-                protobuf \
-                grpcio-health-checking==1.62.2 \
-                google-api-core[grpc] \
+                grpcio-reflection==1.67.1 \
+                protobuf==5.28.3 \
+                grpcio-health-checking==1.67.1 \
+                google-api-core[grpc]==2.22.0 \
                 libcst==0.3.23 \
-                googleapis-common-protos>=1.63.2 \
-                proto-plus>=1.24.0 \
+                googleapis-common-protos>=1.65.0 \
+                proto-plus>=1.25.0 \
                 quart \
                 pynacl \
                 uvicorn
