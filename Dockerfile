@@ -21,6 +21,6 @@ RUN pip install \
                 proto-plus>=1.25.0 \
                 quart \
                 pynacl \
-                uvicorn
+                hypercorn
 RUN apt update && apt dist-upgrade -y && apt install -y jq awscli tini
 RUN pip list
