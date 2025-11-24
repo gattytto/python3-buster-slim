@@ -1,4 +1,4 @@
-FROM docker.io/amd64/python:3.12.3-slim-trixie
+FROM docker.io/amd64/python:3.12.12-slim-trixie
 
 ENV CARGO_BUILD_JOBS=2
 
