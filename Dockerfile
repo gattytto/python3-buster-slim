@@ -22,5 +22,5 @@ RUN pip install \
                 quart \
                 pynacl \
                 hypercorn
-RUN apt update && apt dist-upgrade -y && apt install -y jq awscli tini
+RUN apt update && apt dist-upgrade -y && apt install -y jq awscli tini python3-pip
 RUN pip list
